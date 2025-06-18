@@ -15,7 +15,7 @@ aliases: [reference/dmn11/feel/legacy/language-elements/]
 
 :::note[Heads Up!]
 This page provides information on the legacy FEEL Engine, that was used before the
-current <a href="../user-guide/dmn-engine/feel/index.md">Scala-based FEEL Engine</a>
+current <a href="../../../../../documentation/user-guide/dmn-engine/feel/index.md">Scala-based FEEL Engine</a>
 was integrated into Operaton.
 :::
 
@@ -190,6 +190,6 @@ Examples:
 [ranges]: #range
 [disjunction]: #disjunction
 [negation]: #negation
-[FEEL data types]: ../reference/dmn/feel/legacy/data-types.md
-[date types]: ../reference/dmn/feel/legacy/data-types.md#date
-[input entries]: ../reference/dmn/decision-table/rule.md#input-entry-condition
+[FEEL data types]: ../../feel/legacy/data-types.md
+[date types]: ../../feel/legacy/data-types.md#date
+[input entries]: ../../decision-table/rule.md#input-entry-condition

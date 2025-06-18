@@ -96,4 +96,4 @@ Double using a [custom data type](../user-guide/dmn-engine/data-types.md#impleme
 [decision table result]: ../user-guide/dmn-engine/evaluate-decisions.md#interpret-the-dmndecisiontableresult
 [supported DT]: ../user-guide/dmn-engine/data-types.md#supported-data-types
 [output entry]: ../reference/dmn/decision-table/rule.md#output-entry-conclusion
-[custom data type]: ../user-guide/dmn-engine/data-types.md#implement-a-custom-data-type
+[custom data type]: ../../../user-guide/dmn-engine/data-types.md#implement-a-custom-data-type
