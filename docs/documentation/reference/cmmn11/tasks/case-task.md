@@ -172,7 +172,7 @@ With `local="true"` for the `in` mapping, only `var2` is mapped into the called 
 
 # Pass Business Key
 
-In addition to [exchanging variables](../reference/cmmn11/tasks/case-task.md#exchange-variables), it is possible to pass a business key to the called case instance as well. Since a business key is immutable, this is one way mapping. It is not possible to have output mapping for a business key.
+In addition to [exchanging variables](./case-task.md#exchange-variables), it is possible to pass a business key to the called case instance as well. Since a business key is immutable, this is one way mapping. It is not possible to have output mapping for a business key.
 
 The following example shows how the business key of the calling case instance can be passed to the called case instance. In this case, the calling case instance and the called case instance end up with the same business key.
 
@@ -200,18 +200,18 @@ If the business key of the called case instance should be different from the bus
   <tr>
     <th>Attributes</th>
     <td>
-      <a href="../reference/cmmn11/custom-extensions/operaton-attributes.md#casebinding">operaton:caseBinding</a>,
-      <a href="../reference/cmmn11/custom-extensions/operaton-attributes.md#casetenantid">operaton:caseTenantId</a>,
-      <a href="../reference/cmmn11/custom-extensions/operaton-attributes.md#caseversion">operaton:caseVersion</a>
+      <a href="../custom-extensions/operaton-attributes.md#casebinding">operaton:caseBinding</a>,
+      <a href="../custom-extensions/operaton-attributes.md#casetenantid">operaton:caseTenantId</a>,
+      <a href="../custom-extensions/operaton-attributes.md#caseversion">operaton:caseVersion</a>
     </td>
   </tr>
   <tr>
     <th>Extension Elements</th>
     <td>
-      <a href="../reference/cmmn11/custom-extensions/operaton-elements.md#in">operaton:in</a>,
-      <a href="../reference/cmmn11/custom-extensions/operaton-elements.md#out">operaton:out</a>,
-      <a href="../reference/cmmn11/custom-extensions/operaton-elements.md#caseexecutionlistener">operaton:caseExecutionListener</a>,
-      <a href="../reference/cmmn11/custom-extensions/operaton-elements.md#variablelistener">operaton:variableListener</a>
+      <a href="../custom-extensions/operaton-elements.md#in">operaton:in</a>,
+      <a href="../custom-extensions/operaton-elements.md#out">operaton:out</a>,
+      <a href="../custom-extensions/operaton-elements.md#caseexecutionlistener">operaton:caseExecutionListener</a>,
+      <a href="../custom-extensions/operaton-elements.md#variablelistener">operaton:variableListener</a>
     </td>
   </tr>
   <tr>

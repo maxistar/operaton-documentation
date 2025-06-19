@@ -117,7 +117,7 @@ List<Task> tasks = taskService.createTaskQuery().taskAssignee("kermit").list();
 When strictly following the CMMN standard, user and group assignments can be quite cumbersome for use cases where the assignment is more complicated. To avoid these complexities, custom extensions on the human task element can be set.
 
 The CMMN Human task supports the same assignment extensions and concepts as the BPMN User Task.
-You can read up on these extensions in the [BPMN User Task Section](../reference/bpmn20/tasks/user-task.md#user-assignment-using-operaton-extensions). Same as for the BPMN User task, [assignment based on data and service logic](../reference/bpmn20/tasks/user-task.md#assignment-based-on-data-and-service-logic) is supported for the CMMN Human Task as well.
+You can read up on these extensions in the [BPMN User Task Section](../../bpmn20/tasks/user-task.md#user-assignment-using-operaton-extensions). Same as for the BPMN User task, [assignment based on data and service logic](../../bpmn20/tasks/user-task.md#assignment-based-on-data-and-service-logic) is supported for the CMMN Human Task as well.
 
 # Forms
 
@@ -134,7 +134,7 @@ The form key is a symbolic value which can be set in the CMMN XML file by using 
 attribute `formKey` and retrieved at runtime using the process engine API.
 
 If the user task form is displayed inside the Operaton Tasklist, the format of the formKey must follow
-special rules. [See the corresponding section in the user guide for details](../user-guide/task-forms/index.md).
+special rules. [See the corresponding section in the user guide for details](../../../user-guide/task-forms/index.md).
 
 In custom applications, the value of the form key can be chosen freely. In a custom application the
 value of the form key attribute can be interpreted freely. Based on the specific UI technology used,
@@ -171,22 +171,22 @@ make sure the form keys are initialized.
   <tr>
     <th>Attributes</th>
     <td>
-      <a href="../reference/cmmn11/custom-extensions/operaton-attributes.md#assignee">operaton:assignee</a>,
-      <a href="../reference/cmmn11/custom-extensions/operaton-attributes.md#candidategroups">operaton:candidateGroups</a>,
-      <a href="../reference/cmmn11/custom-extensions/operaton-attributes.md#candidateusers">operaton:candidateUsers</a>,
-      <a href="../reference/cmmn11/custom-extensions/operaton-attributes.md#duedate">operaton:dueDate</a>,
-      <a href="../reference/cmmn11/custom-extensions/operaton-attributes.md#formkey">operaton:formKey</a>,
-      <a href="../reference/cmmn11/custom-extensions/operaton-attributes.md#priority">operaton:priority</a>
+      <a href="../custom-extensions/operaton-attributes.md#assignee">operaton:assignee</a>,
+      <a href="../custom-extensions/operaton-attributes.md#candidategroups">operaton:candidateGroups</a>,
+      <a href="../custom-extensions/operaton-attributes.md#candidateusers">operaton:candidateUsers</a>,
+      <a href="../custom-extensions/operaton-attributes.md#duedate">operaton:dueDate</a>,
+      <a href="../custom-extensions/operaton-attributes.md#formkey">operaton:formKey</a>,
+      <a href="../custom-extensions/operaton-attributes.md#priority">operaton:priority</a>
     </td>
   </tr>
   <tr>
     <th>Extension Elements</th>
     <td>
-      <a href="../reference/cmmn11/custom-extensions/operaton-elements.md#in">operaton:in</a>,
-      <a href="../reference/cmmn11/custom-extensions/operaton-elements.md#out">operaton:out</a>,
-      <a href="../reference/cmmn11/custom-extensions/operaton-elements.md#caseexecutionlistener">operaton:caseExecutionListener</a>,
-      <a href="../reference/cmmn11/custom-extensions/operaton-elements.md#tasklistener">operaton:taskListener</a>,
-      <a href="../reference/cmmn11/custom-extensions/operaton-elements.md#variablelistener">operaton:variableListener</a>
+      <a href="../custom-extensions/operaton-elements.md#in">operaton:in</a>,
+      <a href="../custom-extensions/operaton-elements.md#out">operaton:out</a>,
+      <a href="../custom-extensions/operaton-elements.md#caseexecutionlistener">operaton:caseExecutionListener</a>,
+      <a href="../custom-extensions/operaton-elements.md#tasklistener">operaton:taskListener</a>,
+      <a href="../custom-extensions/operaton-elements.md#variablelistener">operaton:variableListener</a>
     </td>
   </tr>
   <tr>

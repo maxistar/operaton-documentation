@@ -111,7 +111,7 @@ An expression also allows using the tenant id of the calling case instance inste
 
 # Decision Result
 
-The output of the decision, also called decision result, is not saved as case variable automatically. It has to pass into a case variable by using a [predefined](../user-guide/process-engine/decisions/bpmn-cmmn.md#predefined-mapping-of-the-decision-result) or a [custom](../user-guide/process-engine/decisions/bpmn-cmmn.md#custom-mapping-to-case-variables) mapping of the decision result.
+The output of the decision, also called decision result, is not saved as case variable automatically. It has to pass into a case variable by using a [predefined](../../../user-guide/process-engine/decisions/bpmn-cmmn.md#predefined-mapping-of-the-decision-result) or a [custom](../../../user-guide/process-engine/decisions/bpmn-cmmn.md#custom-mapping-to-case-variables) mapping of the decision result.
 
 In case of a predefined mapping, the `operaton:mapDecisionResult` attribute references the mapper to use. The result of the mapping is saved in the variable which is specified by the `operaton:resultVariable` attribute. If no predefined mapper is set then the `resultList` mapper is used by default.
 
@@ -126,7 +126,7 @@ entry or none at all.
     operaton:resultVariable="result" />
 ```
 
-See the [User Guide](../user-guide/process-engine/decisions/bpmn-cmmn.md#the-decision-result) for details about the mapping.
+See the [User Guide](../../../user-guide/process-engine/decisions/bpmn-cmmn.md#the-decision-result) for details about the mapping.
 
 :::warning[Name of the Result Variable]
 The result variable should not have the name `decisionResult` since the decision result itself is saved in a variable with this name. Otherwise an exception is thrown while saving the result variable.
@@ -144,18 +144,18 @@ To evaluate a referenced decision, the integration of the Operaton DMN engine is
   <tr>
     <th>Attributes</th>
     <td>
-      <a href="../reference/cmmn11/custom-extensions/operaton-attributes.md#decisionbinding">operaton:decisionBinding</a>,
-            <a href="../reference/cmmn11/custom-extensions/operaton-attributes.md#decisiontenantid">operaton:decisionTenantId</a>,
-      <a href="../reference/cmmn11/custom-extensions/operaton-attributes.md#decisionversion">operaton:decisionVersion</a>,
-      <a href="../reference/cmmn11/custom-extensions/operaton-attributes.md#mapdecisionresult">operaton:mapDecisionResult</a>,
-      <a href="../reference/cmmn11/custom-extensions/operaton-attributes.md#resultvariable">operaton:resultVariable</a>
+      <a href="../custom-extensions/operaton-attributes.md#decisionbinding">operaton:decisionBinding</a>,
+      <a href="../custom-extensions/operaton-attributes.md#decisiontenantid">operaton:decisionTenantId</a>,
+      <a href="../custom-extensions/operaton-attributes.md#decisionversion">operaton:decisionVersion</a>,
+      <a href="../custom-extensions/operaton-attributes.md#mapdecisionresult">operaton:mapDecisionResult</a>,
+      <a href="../custom-extensions/operaton-attributes.md#resultvariable">operaton:resultVariable</a>
     </td>
   </tr>
   <tr>
     <th>Extension Elements</th>
     <td>
-      <a href="../reference/cmmn11/custom-extensions/operaton-elements.md#caseexecutionlistener">operaton:caseExecutionListener</a>,
-      <a href="../reference/cmmn11/custom-extensions/operaton-elements.md#variablelistener">operaton:variableListener</a>
+      <a href="../custom-extensions/operaton-elements.md#caseexecutionlistener">operaton:caseExecutionListener</a>,
+      <a href="../custom-extensions/operaton-elements.md#variablelistener">operaton:variableListener</a>
     </td>
   </tr>
   <tr>
@@ -167,4 +167,4 @@ To evaluate a referenced decision, the integration of the Operaton DMN engine is
   </tr>
 </table>
 
-[DMN 1.3]: ../reference/dmn/index.md
+[DMN 1.3]: ../../dmn/index.md
