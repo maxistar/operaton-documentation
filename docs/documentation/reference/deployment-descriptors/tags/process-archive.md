@@ -13,9 +13,9 @@ menu:
 ---
 
 
-The process archive tag allows configuration of a process engine deployment and can be used in the [processes.xml](../reference/deployment-descriptors/descriptors/processes-xml.md) file.
+The process archive tag allows configuration of a process engine deployment and can be used in the [processes.xml](../descriptors/processes-xml.md) file.
 
-See the [processes.xml](../user-guide/process-applications/the-processes-xml-deployment-descriptor.md) section of the [User Guide](../user-guide/index.md) for more details.
+See the [processes.xml](../../../user-guide/process-applications/the-processes-xml-deployment-descriptor.md) section of the [User Guide](../../../user-guide/index.md) for more details.
 
 
 # Example
@@ -56,7 +56,7 @@ The following example shows a process-archive XML snippet:
         <ul>
           <li><code>name</code>: Allows you to define the name of the process archive. The name will be used for the
             process engine deployment.</li>
-          <li><code>tenantId</code>: Allows you to define the tenant-id of the process archive. If a tenant-id is set then all containing resources will be deployed for the given tenant-id. See the User Guide for details about <a href="../user-guide/process-engine/multi-tenancy.md#single-process-engine-with-tenant-identifiers">Multi-Tenancy</a>.</li>
+          <li><code>tenantId</code>: Allows you to define the tenant-id of the process archive. If a tenant-id is set then all containing resources will be deployed for the given tenant-id. See the User Guide for details about <a href="../../../user-guide/process-engine/multi-tenancy.md#single-process-engine-with-tenant-identifiers">Multi-Tenancy</a>.</li>
         </ul>
       </p>
       <p>
@@ -176,7 +176,7 @@ The following is a list of all supported configuration properties.
     <td><code>isResumePreviousVersions</code></td>
     <td>boolean</td>
     <td>
-        If true, previous versions of the deployment are automatically resumed. See the <a href="../user-guide/process-applications/the-processes-xml-deployment-descriptor.md#process-application-deployment">Process Application Deployment</a> section of the <a href="../user-guide/index.md">User Guide</a> for more details.
+        If true, previous versions of the deployment are automatically resumed. See the <a href="../../../user-guide/process-applications/the-processes-xml-deployment-descriptor.md#process-application-deployment">Process Application Deployment</a> section of the <a href="../../../user-guide/index.md">User Guide</a> for more details.
       <p>
         <strong>Default value:</strong>
         true.
@@ -187,7 +187,7 @@ The following is a list of all supported configuration properties.
     <td><code>resumePreviousBy</code></td>
     <td>string</td>
     <td>
-        The mode to resume previous deployments of the process application. See the <a href="../user-guide/process-applications/the-processes-xml-deployment-descriptor.md#process-application-deployment">Process Application Deployment</a> section of the <a href="../user-guide/index.md">User Guide</a> for more details.
+        The mode to resume previous deployments of the process application. See the <a href="../../../user-guide/process-applications/the-processes-xml-deployment-descriptor.md#process-application-deployment">Process Application Deployment</a> section of the <a href="../../../user-guide/index.md">User Guide</a> for more details.
       <p>
         <strong>Default value:</strong>
         <code>process-definition-key</code>
@@ -266,7 +266,7 @@ The following is a list of all supported configuration properties.
       <code>isScanForProcessDefinitions</code> property is set to <code>true</code>. It can be used
       to deploy additional resources beside process and case definitions, for example to add a
       script to the deployment and reference it as an external source (see the documentation about
-      <a href="../user-guide/process-engine/scripting.md#script-source">script source</a> for more information). To specify multiple suffixes, a comma is
+      <a href="../../../user-guide/process-engine/scripting.md#script-source">script source</a> for more information). To specify multiple suffixes, a comma is
       used as seperator, i.e., <code>py,groovy,rb</code>.
     </td>
   </tr>

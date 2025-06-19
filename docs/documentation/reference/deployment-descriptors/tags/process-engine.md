@@ -1333,7 +1333,7 @@ The history time to live defines the number of days using a time specified by th
 
 ## Logging context parameters
 
-These parameters define the keys at which the specified data can be retrieved from the Mapped Diagnostic Context (MDC). See [Logging](../user-guide/logging.md#process-data-context) for details.
+These parameters define the keys at which the specified data can be retrieved from the Mapped Diagnostic Context (MDC). See [Logging](./../../../user-guide/logging.md#process-data-context) for details.
 The specified data will only be put into the MDC if a key is defined. All parameters can be set to <code>null</code> or the empty String in order to disable their logging in the MDC.
 
 <table class="table table-striped">
